@@ -3,6 +3,8 @@ services:
   redis-server:
     image: 'redis'
   node-app:
+  # restart policy can be "no", on-failure, always, unless-stopped
+    restart: always
     build: .
     ports:
       - "8080:8080"
