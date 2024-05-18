@@ -1,0 +1,24 @@
+{
+  "name": "visit-count",
+  "version": "1.0.0",
+  "description": "Count no of visits on a webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NileshSaha/visit-count.git"
+  },
+  "author": "NileshSaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NileshSaha/visit-count/issues"
+  },
+  "homepage": "https://github.com/NileshSaha/visit-count#readme"
+}
